@@ -1,7 +1,8 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 \usepackage{fullpage}
 \usepackage{url}
 \usepackage{hyperref}
+\nofiles
 
 \newenvironment{tightitemize}
 {\begin{itemize}
@@ -10,22 +11,21 @@
   \setlength{\parsep}{0pt}}
 {\end{itemize}}
 
-\author{}
-\title{
-\bf\Large{Nick Black \href{mailto:nickblack@linux.com}{\nolinkurl{<nickblack@linux.com>}}}\\
-\bf\Large{855 Peachtree Street \#3204, Atlanta, GA 30308}
-}
+\title{\small Nick Black \href{mailto:nickblack@linux.com}{\nolinkurl{<nickblack@linux.com>}}}
+\author{\tiny 855 Peachtree Street \#3204\\
+\tiny Atlanta, GA 30308}
 \date{}
 \begin{document}
 \maketitle
-\section{Inspiration}
 
+\section{Inspiration}
+\begin{quote}
 We work in the dark. We give what we have. We do what we can.
 Our doubt is our passion, and our passion is our task.
-The rest is the madness of art. -Henry James, "The Middle Years"
+The rest is the madness of art. -Henry James, \textit{The Middle Years}
+\end{quote}
 
 \section{Objectives}
-
 To continue researching, designing, implementing, deploying and maintaining
 innovative solutions for keeping the bits flowing and cachelines humming.
 To snatch order from a teeming chaos in the least code possible. To see the
@@ -49,9 +49,8 @@ fatigue, the too-long compiles, and to *know* that the problem was solved.
 \end{tightitemize}
 
 \section{Employment and Education}
-
 \begin{tightitemize}
-\item 2010/08 - Present: Georgia Institute of Technology
+\item 2010/08--Present: Georgia Institute of Technology
 Doctor of Philosophy in Computer Science (College of Computing)
 
 \begin{tightitemize}
@@ -59,35 +58,35 @@ Doctor of Philosophy in Computer Science (College of Computing)
   especially with regard to massive consumer-off-the-shelf deployments.
 \end{tightitemize}
 
-\item 2010/03 - Present: Principal, Sprezzatura Computing
+\item 2010/03--Present: Principal, Sprezzatura Computing
 
 \begin{tightitemize}
 \item Consulting on UNIX network and systems programming, high-performance
   computing, and system architecture.
 \end{tightitemize}
 
-\item 2010/05 - 2010/09: Chief Engineer, AccelerEyes LLC (Atlanta, GA)
+\item 2010/05--2010/09: Chief Engineer, AccelerEyes LLC (Atlanta, GA)
 \begin{tightitemize}
-\item Led design work for the "Jacket" MatLab plugin, and AccelerEyes's core library of CUDA functionality.
+\item Led design work for the ``Jacket'' MatLab plugin, and AccelerEyes's core library of CUDA functionality.
 \item Implemented and analyzed GPU logical and numeric codes, including multidimensional convolutions, decompositions, sorting and searching.
 \item Redesigned CPU-GPU memory transfer to use sharing, pinning and zero-copy.
 \item Reimplemented build system, autotesting, and office network from scratch.
 \end{tightitemize}
 
-\item 2008/08 - 2010/05: Georgia Institute of Technology
+\item 2008/08--2010/05: Georgia Institute of Technology
 Master of Science in Computer Science (College of Computing)
 
 \begin{tightitemize}
-\item Research project: "Epicycles, Flywheels, and (Widening) Gyres: UNIX I/O
-  Slouches Toward Multicore NUMA" (2009). Explored the state of the art in
+\item Research project: ``Epicycles, Flywheels, and (Widening) Gyres: UNIX I/O
+  Slouches Toward Multicore NUMA'' (2009). Explored the state of the art in
   large-scale, massively parallel servers, and how current APIs ought
-  change. Results include the open "libtorque" library and a 2010 paper,
-  "Portable Multithreaded Continuations for Scalable Event-Driven Programs".
+  change. Results include the open libtorque library and a 2010 paper,
+  ``Portable Multithreaded Continuations for Scalable Event-Driven Programs''.
 \item Sixteen classes, with twelve from among Systems and Information Security.
-\item Teaching Assistant (CS6290, "High Performance Computer Architecture").
+\item Teaching Assistant (CS6290, ``High Performance Computer Architecture'').
 \end{tightitemize}
 
-\item 2005/12 - 2009/11: Principal Engineer, McAfee (Alpharetta, GA)
+\item 2005/12--2009/11: Principal Engineer, McAfee (Alpharetta, GA)
 
 \begin{tightitemize}
 \item Impact Engineer of the Year, 2007-2008.
@@ -98,7 +97,7 @@ Master of Science in Computer Science (College of Computing)
   platform, and with it battled botnets across the IPv4 address space.
 \item Lead developer of the IronNet(TM) appliance, making use of techniques
   including latent semantic analysis, clustering, and Markovian discrimination
-  to effect what IDC calls "compliance". This included the snare ICAP server.
+  to effect what IDC calls ``compliance''. This included the snare ICAP server.
 \item Developed algorithms to detect image spam used by SecureMail(TM), and
   reputation protection systems used by the PhishRegistry(TM) service.
 \item Developed garuda, a CheckPoint(R) OPSEC module interfacing with the
@@ -116,7 +115,7 @@ Master of Science in Computer Science (College of Computing)
 \item PCT/US2008/051869. Detecting Image Spam. 2008-07-31.
 \end{tightitemize}
 
-\item 2000/08 - 2005/12: Senior Software Engineer, Reflex Security (Atlanta, GA)
+\item 2000/08--2005/12: Senior Software Engineer, Reflex Security (Atlanta, GA)
 
 \begin{tightitemize}
 \item Led research team, focused on intrusion prevention, parallelized and
@@ -137,24 +136,24 @@ Master of Science in Computer Science (College of Computing)
 \item PCT/US2004/023739. Sys+Method for Threat Detection and Response. 2005-02-03.
 \end{tightitemize}
 
-\item 1998/12 - 1999/12: Teaching Assistant, GT College of Computing (Atlanta, GA)
+\item 1998/12--1999/12: Teaching Assistant, GT College of Computing (Atlanta, GA)
 
 Recitations with ~15 students, plus one-on-one meetings and grading of exams
 and homeworks. Classes TA'd are listed below, along with projects I authored:
 
 \begin{tightitemize}
-\item "Programming Language Principles" (CS 3411). Case study: "Is 'make' a
-   declarative language?" Implementation of red-black trees in Prolog.
-\item "Models and Translation" (CS 2330). Implementation of a LISP interpreter
+\item ``Programming Language Principles'' (CS 3411). Case study: ``Is 'make' a
+   declarative language?'' Implementation of red-black trees in Prolog.
+\item ``Models and Translation'' (CS 2330). Implementation of a LISP interpreter
    and symbolic differentiator in ANSI C. Implementation of the ANSI C
    preprocessor using flex, bison and ANSI C.
-\item "Control and Concurrency" (CS 2430). Implementation of AVL trees using
+\item ``Control and Concurrency'' (CS 2430). Implementation of AVL trees using
    recursion, in-place stack growth and a preallocated stack in ANSI C.
-\item "Instruction Set Architecture" (CS 2760). Implemented a limited SPARC
+\item ``Instruction Set Architecture'' (CS 2760). Implemented a limited SPARC
    emulator for use in a case study. Implementation of BCD in the JVM.
 \end{tightitemize}
 
-\item 1998/09 - 2000/02, 2004/01 - 2005/05: Georgia Institute of Technology
+\item 1998/09--2000/02, 2004/01--2005/05: Georgia Institute of Technology
 Bachelor of Science in Computer Science (College of Computing)
 Specializations in Theory, Systems, and Networking
 
@@ -168,8 +167,8 @@ Specializations in Theory, Systems, and Networking
 \section{Awards and Distinctions}
 
 \begin{tightitemize}
-\item Credited corrections to Donald Knuth's "The Art of Computer Programming"
-   and George Varghese's "Networking Algorithmics".
+\item Credited corrections to Donald Knuth's \textit{The Art of Computer Programming}
+   and George Varghese's \textit{Networking Algorithmics}.
 \item Impact Engineer of the Year, 2007-2008 (McAfee / Secure Computing).
 \item Faculty Honors, Georgia Tech 1999.
 \item Dean's List, Georgia Tech 1998.
