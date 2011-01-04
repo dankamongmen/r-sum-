@@ -13,4 +13,4 @@ $(PDF): $(TEX)
 	pdflatex $<
 
 clean:
-	rm -f $(PDF)
+	rm -f $(PDF) $(DOC).log
