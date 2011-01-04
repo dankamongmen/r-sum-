@@ -1,5 +1,8 @@
-\documentclass[11pt]{article}
+\documentclass{article}
+\usepackage{times}
 \usepackage{fullpage}
+\usepackage[small,compact]{titlesec}
+\usepackage{textcomp}
 \usepackage{url}
 \usepackage{hyperref}
 \nofiles
@@ -11,21 +14,22 @@
   \setlength{\parsep}{0pt}}
 {\end{itemize}}
 
+%\setlength{\parindent}{0in}
+
 \begin{document}
-\small Nick Black \href{mailto:nickblack@linux.com}{\nolinkurl{<nickblack@linux.com>}}
+{\noindent}\small Nick Black \href{mailto:nickblack@linux.com}{\nolinkurl{<nickblack@linux.com>}}\\
+\scriptsize{855 Peachtree Street \#3204\\
+Atlanta, GA 30308}\\
 
-\tiny 855 Peachtree Street \#3204
+{\noindent}\tiny{
+\textit{We work in the dark. We give what we have. We do what we can.\\
+Our doubt is our passion, and our passion is our task. The rest is the madness of art.}
 
-\tiny Atlanta, GA 30308
+--Henry James, \textit{The Middle Years}}
 
-\section{Inspiration}
-\begin{quote}
-We work in the dark. We give what we have. We do what we can.
-Our doubt is our passion, and our passion is our task.
-The rest is the madness of art. -Henry James, \textit{The Middle Years}
-\end{quote}
+\footnotesize
 
-\section{Objectives}
+\subsection*{Objectives}
 To continue researching, designing, implementing, deploying and maintaining
 innovative solutions for keeping the bits flowing and cachelines humming.
 To snatch order from a teeming chaos in the least code possible. To see the
@@ -34,7 +38,7 @@ owe the world each day's improvements to my source tree. To gaze back upon
 sixty-hour debugging sessions, seeing past the gnashed teeth, the utter
 fatigue, the too-long compiles, and to *know* that the problem was solved.
 
-\section{Open Source}
+\subsection*{Open Source}
 \begin{tightitemize}
 \item Authored and maintain numerous open source packages, including:
 \begin{tightitemize}
@@ -48,7 +52,7 @@ fatigue, the too-long compiles, and to *know* that the problem was solved.
   Maintained IBM's NGPT (Next Generation POSIX Threading) patchset.
 \end{tightitemize}
 
-\section{Employment and Education}
+\subsection*{Employment and Education}
 \begin{tightitemize}
 \item 2010/08--Present: Georgia Institute of Technology
 Doctor of Philosophy in Computer Science (College of Computing)
@@ -95,19 +99,19 @@ Master of Science in Computer Science (College of Computing)
 \item Worked with academia in anti-bot efforts, intimately studying and engaging
   the Storm botnet. Developed the argus panoptes distributed anti-bot
   platform, and with it battled botnets across the IPv4 address space.
-\item Lead developer of the IronNet(TM) appliance, making use of techniques
+\item Lead developer of the IronNet\texttrademark appliance, making use of techniques
   including latent semantic analysis, clustering, and Markovian discrimination
   to effect what IDC calls ``compliance''. This included the snare ICAP server.
-\item Developed algorithms to detect image spam used by SecureMail(TM), and
-  reputation protection systems used by the PhishRegistry(TM) service.
-\item Developed garuda, a CheckPoint(R) OPSEC module interfacing with the
-  TrustedSource(TM) reputation service.
+\item Developed algorithms to detect image spam used by SecureMail\texttrademark, and
+  reputation protection systems used by the PhishRegistry\texttrademark service.
+\item Developed garuda, a CheckPoint\textsuperscript{\textregistered} OPSEC module interfacing with the
+  TrustedSource\texttrademark reputation service.
 \item Developed the hurlbat protocol testing tool, and SMTP, HTTP and ICAP modules.
 \item Planned and led execution of IPv6 integration into Secure Computing products.
-\item Developed a Knoppix(R)-based CD for competitive operations in the field.
+\item Developed a Knoppix\textsuperscript{\textregistered}-based CD for competitive operations in the field.
 \item Collaboratively designed the architecture and protocols behind a new
-  implementation of the TrustedSource(TM) reputation service.
-\item Rewrote the build system for IronMail(TM) and related products from scratch.
+  implementation of the TrustedSource\texttrademark reputation service.
+\item Rewrote the build system for IronMail\texttrademark and related products from scratch.
   Code review, automated building, virtualized testing, and unit testing were
   instituted along the way. Converted crufty CVS repositories to shiny
   Subversion repositories and investigated distributed source control.
@@ -121,8 +125,8 @@ Master of Science in Computer Science (College of Computing)
 \item Led research team, focused on intrusion prevention, parallelized and
   distributed intrusion detection, and multiple pattern matching. Implemented
   several techniques later published by academia. Led interviewing.
-\item Sole developer of code for the Reflex Interceptor (now Reflex IPS(TM) and
-  Reflex MG(TM)), a Layer-2 bridging NIPS running Linux. This included:
+\item Sole developer of code for the Reflex Interceptor (now Reflex IPS\texttrademark and
+  Reflex MG\texttrademark), a Layer-2 bridging NIPS running Linux. This included:
     \item tako, an IPS application statefully analyzing multiple GigE links inline
       and in real time, performing a forwarding verdict on each frame via use
       of mmap(2)ed packet sockets + custom netlink(7linux) messages,
@@ -164,7 +168,7 @@ Specializations in Theory, Systems, and Networking
 
 \end{tightitemize}
 
-\section{Awards and Distinctions}
+\subsection*{Awards and Distinctions}
 
 \begin{tightitemize}
 \item Credited corrections to Donald Knuth's \textit{The Art of Computer Programming}
@@ -176,7 +180,7 @@ Specializations in Theory, Systems, and Networking
 \item Second place, 1997 Questions Unlimited! National Tournament (Walton HS).
 \end{tightitemize}
 
-\section{Skills}
+\subsection*{Skills}
 
 Algorithmic thinking. ANSI/ISO C. Development in the UNIX environment. Design
 and analysis of algorithms. Network programming. Effective use and internals
@@ -192,5 +196,5 @@ High-throughput, low-latency I/O models, scalable I/O and its implementation,
 zero-copy networking, and network hardware design. Tools of network
 enumeration and domination. x86 assembly language, including MMX and SSE.
 Computer architecture. Compiler design. Elegant system administration.
-Bayesian methods. Combinatorics, stochastics, topology, analysis, ad nauseam.
+Bayesian methods. Combinatorics, stochastics, topology, analysis, \textit{ad nauseam}.
 \end{document}
