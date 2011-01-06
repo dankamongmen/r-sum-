@@ -17,19 +17,23 @@
 %\setlength{\parindent}{0in}
 
 \begin{document}
-{\noindent}\small Nick Black \href{mailto:nickblack@linux.com}{\nolinkurl{<nickblack@linux.com>}}\\
-\scriptsize{855 Peachtree Street \#3204\\
-Atlanta, GA 30308}\\
-\href{http://dank.qemfd.net}{http://dank.qemfd.net}\\
+{\noindent}\small \textbf{Nick Black
+\href{mailto:nickblack@linux.com}{\nolinkurl{<nickblack@linux.com>}}
+\hfill \href{http://dank.qemfd.net}{http://dank.qemfd.net}}
 
-{\noindent}\tiny{
-\textit{We work in the dark. We give what we have. We do what we can.\\
-Our doubt is our passion, and our passion is our task. The rest is the madness of art.}
+\nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\textwidth} 
+\nointerlineskip
 
---Henry James, \textit{The Middle Years}}
+\tiny
+\begin{flushright}
+{\noindent}
+\textit{We work in the dark. We give what we have. We do what we can.}\\
+\textit{Our doubt is our passion, and our passion is our task. The rest is the madness of art.}\\
 
+\hfill--Henry James, \textit{The Middle Years}
+\end{flushright}
 \footnotesize
-
 \subsection*{Objectives}
 To continue researching, designing, implementing, deploying and maintaining
 innovative solutions for keeping the bits flowing and cachelines humming.
@@ -37,57 +41,55 @@ To snatch order from a teeming chaos in the least code possible. To see the
 fruits of my labors entrusted with the packetized dreams of millions. To feel I
 owe the world each day's improvements to my source trees. To gaze back upon
 sixty-hour debugging sessions, seeing past the gnashed teeth, the utter
-fatigue, the too-long compiles, and to know that the problem was solved.
+fatigue, the too-long compiles, and \textit{know} that the problem was solved.
 
-\subsection*{Open Source}
+\vspace{2mm}
+
+\subsection*{Open Source \hfill\tiny\textit{(See \href{http://dank.qemfd.net/dankwiki/index.php/Hackery}{http://dank.qemfd.net/dankwiki/index.php/Hackery} for more details)}}
 \begin{tightitemize}
-\item Authored and maintain numerous open source packages, including:
+\item Authored numerous open source packages, including:
 \begin{tightitemize}
-\item libtorque, a multithreaded, architecture-adaptive event library
-\item cubar and libcudest, NVIDIA CUDA reverse-engineering tools
-\item ptracer, an instruction trace generator
+\item \textit{libtorque}, a multithreaded, architecture-adaptive event library
+\item \textit{cubar} and \textit{libcudest}, NVIDIA CUDA reverse-engineering tools
+\item \textit{ptracer}, an instruction trace generator
 \end{tightitemize}
-\item Contributed accepted patches to Wireshark's core IPv4 procesing, Linux's
-  Matrox driver, IPv4 stack, and hugetlb filesystem, DynamoRIO,
+\item Contributed accepted patches to Wireshark's core IPv4 procesing, several Linux components
+  (Matrox driver, IPv4 stack, and hugetlb filesystem), DynamoRIO,
   strace, OpenSSL, APT-secure, iproute2, bridge-utils, and Snort.
-  Maintained IBM's NGPT (Next Generation POSIX Threading) patchset.
+  Maintained IBM's NGPT (Next Generation POSIX Threading) kernel patchset.
 \end{tightitemize}
 
 \subsection*{Employment and Education}
 \begin{tightitemize}
-\item 2010/08--Present \textit{(on indefinite hiatus)}: Georgia Institute of Technology\\
+\item \textbf{2010/08--Present: Georgia Institute of Technology,
 Doctor of Philosophy in Computer Science
+\hfill \tiny\textit{(on indefinite hiatus)}}
+\footnotesize
 \begin{tightitemize}
-\item Architectural, operating system, language and compiler support for high-performance network servers.
+\item Investigated architecture, operating system, language and compiler support for high-performance network servers.
+\item Advised by Professor Tom Conte as part of the \href{http://comparch.gatech.edu/}{\texttt{comparch}} and \href{http://tinker.cc.gatech.edu/}{TINKER} research groups.
 \end{tightitemize}
 
-\item 2010/03--Present: Principal, Sprezzatura Computing
+\item \textbf{2010/05--2010/09: Chief Engineer, AccelerEyes LLC (Atlanta, GA)}
 \begin{tightitemize}
-\item Consulting on UNIX network and systems programming, high-performance
-  computing, and system architecture.
-\end{tightitemize}
-
-\item 2010/05--2010/09: Chief Engineer, AccelerEyes LLC (Atlanta, GA)
-\begin{tightitemize}
-\item Led design work for the ``Jacket'' MatLab plugin, and AccelerEyes's core library of CUDA functionality.
+\item Led design work for the ``Jacket'' MatLab\textregistered\ plugin, and AccelerEyes's core library of CUDA functionality.
 \item Implemented and analyzed GPU logical and numeric codes, including multidimensional convolutions, decompositions, sorting and searching.
 \item Redesigned CPU-GPU memory transfer to use sharing, pinning and zero-copy.
 \item Reimplemented build system, autotesting, and office network from scratch.
 \end{tightitemize}
 
-\item 2008/08--2010/05: Georgia Institute of Technology\\
-Master of Science in Computer Science
+\item \textbf{2008/08--2010/05: Georgia Institute of Technology, Master of Science in Computer Science}
 \begin{tightitemize}
 \item Research project: ``Epicycles, Flywheels, and (Widening) Gyres: UNIX I/O
   Slouches Toward Multicore NUMA'' (2009). Explored the state of the art in
   large-scale, massively parallel servers, and how current APIs ought
-  change. Results include the open libtorque library and a 2010 paper,
+  change. Results include the open \textit{libtorque} library and a 2010 paper,
   ``Portable Multithreaded Continuations for Scalable Event-Driven Programs''.
 \item Sixteen classes, with twelve from among Systems and Information Security.
 \item Teaching Assistant (CS6290, ``High Performance Computer Architecture'').
 \end{tightitemize}
 
-\item 2005/12--2009/11: Principal Engineer, McAfee (Alpharetta, GA)
+\item \textbf{2005/12--2009/11: Principal Engineer, McAfee (Alpharetta, GA)}
 \begin{tightitemize}
 \item Impact Engineer of the Year, 2007--2008.
 \item Sole backend developer for the Secure Web Proxy Service, a managed Web
@@ -95,19 +97,19 @@ Master of Science in Computer Science
 \item Worked with academia in anti-bot efforts, intimately studying and engaging
   the Storm botnet. Developed the argus panoptes distributed anti-bot
   platform, and with it battled botnets across the IPv4 address space.
-\item Lead developer of the IronNet\texttrademark appliance, making use of techniques
+\item Lead developer of the IronNet\texttrademark\ appliance, making use of techniques
   including latent semantic analysis, clustering, and Markovian discrimination
   to effect what IDC calls ``compliance''. This included the snare ICAP server.
 \item Developed algorithms to detect image spam used by SecureMail\texttrademark, and
-  reputation protection systems used by the PhishRegistry\texttrademark service.
+  reputation protection systems used by the PhishRegistry\texttrademark\ service.
 \item Developed garuda, a CheckPoint\textsuperscript{\textregistered} OPSEC module interfacing with the
-  TrustedSource\texttrademark reputation service.
+  TrustedSource\texttrademark\ reputation service.
 \item Developed the hurlbat protocol testing tool, and SMTP, HTTP and ICAP modules.
 \item Planned and led execution of IPv6 integration into Secure Computing products.
 \item Developed a Knoppix\textsuperscript{\textregistered}-based CD for competitive operations in the field.
 \item Collaboratively designed the architecture and protocols behind a new
-  implementation of the TrustedSource\texttrademark reputation service.
-\item Rewrote the build system for IronMail\texttrademark and related products from scratch.
+  implementation of the TrustedSource\texttrademark\ reputation service.
+\item Rewrote the build system for IronMail\texttrademark\ and related products from scratch.
   Code review, automated building, virtualized testing, and unit testing were
   instituted along the way. Converted crufty CVS repositories to shiny
   Subversion repositories and investigated distributed source control.
@@ -115,18 +117,20 @@ Master of Science in Computer Science
 \item PCT/US2008/051869. Detecting Image Spam. 2008-07-31.
 \end{tightitemize}
 
-\item 2000/08--2005/12: Senior Software Engineer, Reflex Security (Atlanta, GA)
+\pagebreak
+
+\item \textbf{2000/08--2005/12: Senior Software Engineer, Reflex Security (Atlanta, GA)}
 \begin{tightitemize}
 \item Led research team, focused on intrusion prevention, parallelized and
   distributed intrusion detection, and multiple pattern matching. Implemented
   several techniques later published by academia. Led interviewing.
-\item Sole developer of code for the Reflex Interceptor (now Reflex IPS\texttrademark and
+\item Sole developer of code for the Reflex Interceptor (now Reflex IPS\texttrademark\ and
   Reflex MG\texttrademark), a Layer-2 bridging NIPS running Linux. This included:
 \begin{tightitemize}
-    \item tako, an IPS application statefully analyzing multiple GigE links inline
+    \item \textit{tako}, an IPS application statefully analyzing multiple GigE links inline
       and in real time, performing a forwarding verdict on each frame via use
       of \texttt{mmap(2)}ed packet sockets + custom \texttt{netlink(7linux)} messages,
-    \item geso, an SMTP proxy making use of a Kaspersky Anti-Virus backend to
+    \item \textit{geso}, an SMTP proxy making use of a Kaspersky Anti-Virus backend to
       filter mail inline and in real time, designed to be trivially extended
       to other store-and-forward protocols,
     \item build systems, automated testing and benchmarking tools, and backend
@@ -137,23 +141,18 @@ Master of Science in Computer Science
 \item PCT/US2004/023739. Sys+Method for Threat Detection and Response. 2005-02-03.
 \end{tightitemize}
 
-\item 1998/12--1999/12: Teaching Assistant, GT College of Computing (Atlanta, GA)
+\item \textbf{1998/12--1999/12: Teaching Assistant, GT College of Computing (Atlanta, GA)}
 Recitations with ~15 students, plus one-on-one meetings and grading of exams
-and homeworks. Classes TA'd are listed below, along with projects I authored:
+and homeworks. Classes included:
 \begin{tightitemize}
-\item ``Programming Language Principles'' (CS 3411). Case study: ``Is 'make' a
-   declarative language?'' Implementation of red-black trees in Prolog.
-\item ``Models and Translation'' (CS 2330). Implementation of a LISP interpreter
-   and symbolic differentiator in ANSI C. Implementation of the ANSI C
-   preprocessor using flex, bison and ANSI C.
-\item ``Control and Concurrency'' (CS 2430). Implementation of AVL trees using
-   recursion, in-place stack growth and a preallocated stack in ANSI C.
-\item ``Instruction Set Architecture'' (CS 2760). Implemented a limited SPARC
-   emulator for use in a case study. Implementation of BCD in the JVM.
+\item ``Programming Language Principles'' (CS 3411---Language design and comparative programming linguistics).
+\item ``Models and Translation'' (CS 2330---Parsing, interpretation and compilation, virtual machines).
+\item ``Control and Concurrency'' (CS 2430---Parallel computing, UNIX systems programming and ANSI/ISO C).
+\item ``Instruction Set Architecture'' (CS 2760---Assembly language, stored programs, and architectural models).
 \end{tightitemize}
 
-\item 1998/09--2000/02, 2004/01--2005/05: Georgia Institute of Technology\\
-Bachelor of Science in Computer Science\\
+\item \textbf{1998/09--2000/02, 2004/01--2005/05: Georgia Institute of Technology,
+Bachelor of Science in Computer Science}\\
 Specializations in Theory, Systems, and Networking
 \begin{tightitemize}
 \item ACM Programming Team, 2000, GT Team A (Captain), 1999 GT Team B.
@@ -177,16 +176,25 @@ Specializations in Theory, Systems, and Networking
 Algorithmic thinking. ANSI/ISO C. Development in the UNIX environment. Design
 and analysis of algorithms. Network programming. Effective use and internals
 of Linux, FreeBSD, their associated libc's and threading implementations,
-GCC, GNU binutils, LLVM and the open source toolchain. Robust system design.
+GCC, GNU binutils, LLVM and the open source toolchain. Robust system design. 
 Network security. Intrusion prevention. Establishment and detection of covert
 channels. String algorithms. Applications of automata theory. Parallel
 algorithms and design for multicore/manycore machines. Principles and design
 of programming languages. POSIX APIs, along with FreeBSD, Solaris and Linux's
 extensions thereof. Analysis of binaries. Most major network protocols and
-their primary open source implementations. Effective use of cryptography.
+their primary open source implementations. Effective use of cryptography. 
 High-throughput, low-latency I/O models, scalable I/O and its implementation,
 zero-copy networking, and network hardware design. Tools of network
-enumeration and domination. x86 assembly language, including MMX and SSE.
-Computer architecture. Compiler design. Elegant system administration.
-Bayesian methods. Combinatorics, stochastics, topology, analysis, \textit{ad nauseam}.
+enumeration and domination. x86 assembly language, including MMX and SSE. 
+Computer architecture. Compiler design. Elegant system administration. 
+Bayesian methods. Combinatorics, stochastics, topology, analysis, \textit{ad nauseam}. 
+
+\vfill
+\begin{tightitemize}
+\item \textbf{Operating Systems:} Linux (12 years), FreeBSD (6 years), Solaris (3 years)
+\item \textbf{Languages (expert, minimum 10 years):} C, Prolog, Lisp, Bourne shell, x86 and MIPS assembly, XSLT/XPath
+\item \textbf{Languages (professional, minimum 5 years):} C++, Python, Erlang, Haskell
+\item \textbf{Languages (amateur, minimum 1 serious project):} SPARC and M68k assembly, Java, ML, Scheme, JavaScript (and XUL), Scala
+\item \textbf{Technologies:} GCC, LLVM, Pthreads, OpenMP, CUDA, OpenCL, Berkeley sockets, ACE, Boost, Flex/Bison, ANTLR, \LaTeX, Apache, Postfix, MediaWiki, Bugzilla, VPNs, SSH, ERESI, GDB, valgrind, Gecko/FireFox/XULRunner, nmap, tcpdump, Pin, DynamoRIO, vim
+\end{tightitemize}
 \end{document}
